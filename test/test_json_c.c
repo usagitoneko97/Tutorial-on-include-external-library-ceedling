@@ -9,7 +9,9 @@ void tearDown(void)
 {
 }
 
-void test_json_c_NeedToImplement(void)
+void test_json_c_objConvToString(void)
 {
-    TEST_IGNORE_MESSAGE("Need to Implement json_c");
+    json_c_createObj_convToString();
+    //TEST_ASSERT_EQUAL("{ "title": "testies", "body": "testies ... testies ... 1,2,3", "userId": 133 }", json_c_test());
+    //TEST_IGNORE_MESSAGE("Need to Implement json_c");
 }
