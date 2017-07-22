@@ -28,7 +28,7 @@ $ make install
 ```
 
 ## linking the library
-open up your project.yml file and add following:
+open up your project.yml file and add following in the tools section:
 ```
 :test_linker:
   :executable: gcc                  #absolute file path
